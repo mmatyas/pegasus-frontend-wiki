@@ -2,7 +2,7 @@ Qt is a cross platform framework, available for most desktop operating systems, 
 
 ## Linux/X11
 
-On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the repositories may be several years old (as a trade-off between stability and access to the latest software). Unless you're using a "bleeding edge" distribution (eg. Arch), it is recommended to use the official release available from the website of Qt. You can get the required tools from [here](https://info.qt.io/download-qt-for-application-development) (select open source). You will need to install Desktop GCC and Gamepad from Qt 5.8, and Qt Creator from under Tools.
+On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the repositories may be several years old (as a trade-off between stability and access to the latest software). Unless you're using a "bleeding edge" distribution (eg. Arch), it is recommended to use the official release available from the website of Qt. You can get the required tools from [here](https://info.qt.io/download-qt-for-application-development) (select open source). You'll have to install Desktop GCC and Gamepad from Qt 5.8, and Qt Creator from under Tools.
 
 If you're using Arch, you can get Qt from AUR; here's the relevant [wiki page](https://wiki.archlinux.org/index.php/qt#Installation).
 
