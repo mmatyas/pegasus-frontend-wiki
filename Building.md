@@ -1,4 +1,4 @@
-Qt is a cross platform framework
+Qt is a cross platform framework, available for most desktop operating systems, as well as embedded platforms and smartphones.
 
 ## Linux/X11
 
