@@ -25,6 +25,10 @@ Alternatively, if you're using MSYS2, you can find a setup guide [here](https://
 
 After installation, follow the [Qt Creator guide](#general-using-qt-creator).
 
+## macOS
+
+You can use the official Qt installer from [here](https://info.qt.io/download-qt-for-application-development) (select open source), and it is also available from Homebrew (`qt5`). Generally, you can follow the [Linux/X11](#linuxx11) guide. Xcode is also supported by Qt.
+
 ## Linux/Embedded
 
 // TODO
