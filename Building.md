@@ -8,7 +8,7 @@ If you're using Arch, you can get Qt from AUR; here's the relevant [wiki page](h
 
 ### Using the graphical tools
 
-See the [Qt Creator how to].
+See the [Qt Creator how to](#general-using-qt-creator).
 
 ### Using the command line
 
@@ -23,7 +23,7 @@ On Windows, you can use the official Qt installer, which you can get from [here]
 
 Alternatively, if you're using MSYS2, you can find a setup guide [here](https://wiki.qt.io/MSYS2).
 
-After installation, follow the [Qt Creator guide].
+After installation, follow the [Qt Creator guide](#general-using-qt-creator).
 
 ## Linux/Embedded
 
