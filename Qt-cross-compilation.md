@@ -12,7 +12,7 @@ Instead, you can *cross compile* Qt. Cross compilation means the program or libr
 
 # Configurations
 
-These configurations are mainly based on the Debian automatic builds, and the guide mentioned above.
+These configurations are mainly based on the Debian automatic builds, and the guide mentioned above. If you haven't read the [official Qt docs](https://doc.qt.io/qt-5/build-sources.html) yet, do it now. The `configure` step produces a detailed status report; make sure everything looks correct. You'll need everything under QML and Qt Quick (except maybe DirectX 12), and depending on your platform, 'EGLFS' under 'QPA backends' and at least one of the 'EGLFS details', that matches your device (eg. EGLFS Rasberry Pi). You might also want the X11 options off, if you won't use it. See `configure --help` or the documentation for the available options.
 
 ## Raspbian sysroot
 
