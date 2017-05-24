@@ -1,4 +1,19 @@
-Qt is a cross platform framework, available for most desktop operating systems, as well as embedded platforms and smartphones.
+Pegasus is a C++ program that uses the Qt framework. To build it run on your OS or device, you'll need a C++11 supporting compiler (g++ 4.6 or better), Qt 5.8 (version is important!) for your platform, and at least the following Qt components:
+
+- QML module
+- Qt Quick 2 module
+- Multimedia module (might be called as MultimediaQuick)
+- Svg module
+- Gamepad module
+
+Depending on your platform, these libs may or may not be available for your OS, or they may be outdated. See below for the platform notes. Qt also provides a graphical IDE called Qt Creator, which you can use if you wish, but it's not a requirement.
+
+### Table of contents:
+- [Platform notes](#platform-notes)
+- [Configuration options](#general-configuration-options)
+- [Using Qt Creator](#general-using-qt-creator)
+
+# Platform notes
 
 ## Linux/X11
 
@@ -37,7 +52,7 @@ You'll likely need to build Qt manually for your platform (but check your reposi
 
 After that, you can follow the [Linux/X11](#linuxx11) guide to cross compile Pegasus on your desktop PC, then transfer the runtime binary to your device.
 
----
+# General
 
 ## General: configuration options
 
