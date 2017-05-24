@@ -6,7 +6,7 @@ Pegasus is a C++ program that uses the Qt framework. To build it run on your OS 
 - Svg module
 - Gamepad module
 
-Depending on your platform, these libs may or may not be available for your OS, or they may be outdated. See below for the platform notes. Qt also provides a graphical IDE called Qt Creator, which you can use if you wish, but it's not a requirement.
+Depending on your platform, these libs may or may not be available for your OS, or they may be outdated; see below for the platform notes. Qt also provides a graphical IDE called Qt Creator, which you can use if you wish, but it's not a requirement.
 
 ### Table of contents:
 - [Platform notes](#platform-notes)
