@@ -101,3 +101,33 @@ sysroot: see [Raspbian sysroot](#raspbian-sysroot)
 	-system-sqlite \
 	-verbose
 ```
+
+## X11 static build
+
+This was actually a native build, so the cross compilation options aren't needed.
+
+```
+../configure
+	-opensource
+	-confirm-license
+	-release
+	-strip
+	-no-rpath
+	-static
+	-c++std c++11
+	-make libs
+	-skip qtwebengine
+	-skip wayland
+	-prefix /opt/qt58-x11-static
+	-openssl
+	-gstreamer 1.0
+	-fontconfig
+	-no-dbus
+	-verbose
+	-no-glib
+	-qt-zlib
+	-platform linux-g++
+	-no-icu
+	-qpa xcb
+	-xcb
+```
