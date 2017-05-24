@@ -6,14 +6,16 @@ On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are o
 
 If you're using Arch, you can get Qt from AUR; here's the relevant [wiki page](https://wiki.archlinux.org/index.php/qt#Installation).
 
-### Using the graphical tools
+### Using Qt Creator
 
 See the [Qt Creator how to](#general-using-qt-creator).
 
 ### Using the command line
 
 1. Create a build directory somewhere, and `cd` into it
-2. Call `qmake`, the configuration tool of Qt: `/path/to/qmake path/to/project/directory`. If you have multiple Qt versions installed, make sure you call the right `qmake`. If you've installed using the official release from the Qt site, you can find it in `[qt-installdir]/Qt5/[version]/gcc_64/bin` (you can add it to your `$PATH` if you want, but it's not necessary). You can also set some configuration parameters, see the general build guide for more information.
+2. Call `qmake`, the configuration tool of Qt: `/path/to/qmake  path/to/project  [options]`.
+    - If you have multiple Qt versions installed, make sure you call the right `qmake`. If you've installed using the official release from the Qt site, you can find it in `[qt-installdir]/Qt5/[version]/gcc_64/bin` (you can add it to your `$PATH` if you want, but it's not necessary).
+    - You can also change some configuration options, which you can find [here](#gneral-configuration-options).
 3. Call `make`
 4. [optional] Call `make install`
 
@@ -31,7 +33,11 @@ You can use the official Qt installer from [here](https://info.qt.io/download-qt
 
 ## Linux/Embedded
 
-// TODO
+You'll likely need to build Qt manually for your platform (but check your repositories first, just in case). You can find a guide for it [[here|Qt-cross-compilation]].
+
+After that, you can follow the [Linux/X11](#linuxx11) guide to cross compile Pegasus on your desktop PC, then transfer the runtime binary to your device.
+
+---
 
 ## General: configuration options
 
