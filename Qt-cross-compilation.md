@@ -63,7 +63,7 @@ sysroot: see [Raspbian sysroot](#raspbian-sysroot)
 
 ## Raspberry Pi 2 / 3
 
-NOTE: The only difference is the `-device` parameter.
+NOTE: The difference is the `-device` parameter and the output paths.
 
 toolchain: `https://github.com/raspberrypi/tools`, cloned to `/opt/raspberrypi-tools`  
 sysroot: see [Raspbian sysroot](#raspbian-sysroot)
