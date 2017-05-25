@@ -1,0 +1,1 @@
+**Want to contribute?** Open a pull request in [the wiki repository](https://github.com/mmatyas/pegasus-frontend-wiki), or click [here](https://github.com/mmatyas/pegasus-frontend/wiki#want-to-contribute-to-this-wiki) for more details.
