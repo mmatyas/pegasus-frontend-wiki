@@ -4,6 +4,10 @@ Pegasus is an experimental emulator frontend, focusing on customizability, cross
 
 To make this wiki available locally, you can clone it just like any other Git repository, using the following URL: `https://github.com/mmatyas/pegasus-frontend.wiki.git`.
 
+### Want to contribute to this Wiki?
+
+The Pegasus wiki works just like any other Git repo. You can find the wiki pages [here](https://github.com/mmatyas/pegasus-frontend-wiki), where you can send pull requests as usual, and your changes will magically appear here too! You can use the online text editor as well, which will take care of forking and creating the pull request for you.
+
 ### Media:
 
 - [RetroPie thread](https://retropie.org.uk/forum/topic/9598/announcing-pegasus-frontend)

@@ -60,7 +60,7 @@ You can set optional parameters to `qmake` (the Qt configuration tool) by append
 
 You can use the following parameters:
 
-Option | Description   
+Option | Description
 ---|---
 `INSTALLDIR` | The general installation directory used by `make install`. Defaults to `/opt/pegasus-frontend` on Linux and `C:\pegasus-frontend` on Windows. You can fine tune the installation directory of some components by other options.
 `INSTALL_BINDIR` | The installation directory of the runtime binary ("exe"). Defaults to `INSTALLDIR`.
