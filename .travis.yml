@@ -1,0 +1,17 @@
+branches:
+  only:
+  - master
+script:
+- |
+  git config user.name "Auto Wiki Sync"
+  git config user.email "mmatyas@inf.u-szeged.hu"
+  git remote set-url origin https://${GITHUB_PEGASUSWIKI_TOKEN}@github.com/mmatyas/pegasus-frontend-wiki.git > /dev/null 2>&1
+  git remote add upstream https://${GITHUB_PEGASUSWIKI_TOKEN}@github.com/mmatyas/pegasus-frontend.wiki.git > /dev/null 2>&1
+  git fetch origin
+  git fetch upstream
+  git merge upstream/master --no-edit
+  git push origin HEAD:master > /dev/null 2>&1
+  git push upstream HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+    secure: vvJD3i7aZEFaMd3hmeXd4bKHzSTOWjrB8X332oJOr3JGb/w70S3EOuc/Y6ISEx9l78cZvzjP1cY9XkfSd/T8FFjlNsZJVc41RojWIr60hYDThaai+eruqqC8KpRcCiuviNYQkuWZpYRkZkSdlK7GoYR3r89qvexNSCkvJ9Z/2hNUrcdMVYWrkJeyOcy/+4ZRC85q7j/QiVyO8c9uNp2xlUfkwxP0nvpmEYCLm6TFKVI2atv0gwhgOKBrMXpVjU1QSu8pqQmDsQOuJLsAn2Q4Jzb/w7TunXurlIhOsOnCsZYfQPV2bNTYdYLx540P3eG5ck3nd0Jrs/NwxVim5DAE1dW+kSURwcV66I1XtlbHogzJv+PPGu/QB1xjnD+6SZwmMKTuSbKGrqzLDKyKtD5D8TphiRQRHNqzcZkH2kVjIkhFWCZ/4Pts2YLb/VCBpDW4p5F4OlYabfyHjUu5ujzEPZdeqO2M2J0h83cEvXcXR5fVHULTTyz75/Fj0DJEQlD/WMqvwM0aZqhdQFp9vf4VZs3/+eZfuppfdCrAhP6TL8IutHg1dD4ATBdViLtFtbInvmlK7PK5icTGaufh0dG51wKNH6ZrsBQv7LT9sLbjeDf+NUJ6G0+m5NBm7iXYt2dhV8Q+dHQfDpDUtngbyjWQBwy3pXO10G3tk+uA/yJDuR4=
