@@ -30,7 +30,7 @@ See the [Qt Creator how to](#general-using-qt-creator).
 1. Create a build directory somewhere, and `cd` into it
 2. Call `qmake`, the configuration tool of Qt: `/path/to/qmake  path/to/project  [options]`.
     - If you have multiple Qt versions installed, make sure you call the right `qmake`. If you've installed using the official release from the Qt site, you can find it in `[qt-installdir]/Qt5/[version]/gcc_64/bin` (you can add it to your `$PATH` if you want, but it's not necessary).
-    - You can also change some configuration options, which you can find [here](#gneral-configuration-options).
+    - You can also change some configuration options, which you can find [here](#general-configuration-options).
 3. Call `make`
 4. [optional] Call `make install`
 
@@ -64,7 +64,6 @@ Option | Description
 ---|---
 `INSTALLDIR` | The general installation directory used by `make install`. Defaults to `/opt/pegasus-frontend` on Linux and `C:\pegasus-frontend` on Windows. You can fine tune the installation directory of some components by other options.
 `INSTALL_BINDIR` | The installation directory of the runtime binary ("exe"). Defaults to `INSTALLDIR`.
-`INSTALL_DATADIR` | The installation directory of the data files, eg. default themes. Defaults to `INSTALLDIR`.
 `INSTALL_DATADIR` | The installation directory of the data files, eg. default themes. Defaults to `INSTALLDIR`.
 `INSTALL_ICONDIR` | [Linux only] The installation directory of the icon file. Defaults to `INSTALLDIR` (to make it portable), `/usr/share/pixmaps` is recommended if you want to install Pegasus system-wide.
 `INSTALL_DESKTOPDIR` | [Linux only] The installation directory of the desktop entry. Defaults to `INSTALLDIR` (to make it portable), `/usr/share/applications` is recommended if you want to install Pegasus system-wide.
