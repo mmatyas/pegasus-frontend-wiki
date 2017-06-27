@@ -53,6 +53,8 @@ If you're using Qt Linguist, first set your language in *Edit -> Translation fil
 
 There's a file called `translations.qrc.in` in the translations repository. It's another XML file that you can open in a text editor, and collects all the translation files. Simply add a new `<file>pegasus_LOCALECODE.qm</file>` entry.
 
+*Developer note: at the moment, a new entry for the language is also required in `src/backend/api_parts/ApiSettings.cpp`.*
+
 #### 5. Open a pull request
 
 If you know Git, open a pull request in the [translations repository](https://github.com/mmatyas/pegasus-frontend-translations). Alternatively, open a new issue and attach your translation file.
