@@ -17,9 +17,34 @@ Depending on your platform, these libs may or may not be available for your OS, 
 
 ## Linux/X11
 
-On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the repositories may be several years old (as a trade-off between stability and access to the latest software). Unless you're using a "bleeding edge" distribution (eg. Arch), it is recommended to use the official release available from [the website of Qt](https://info.qt.io/download-qt-for-application-development) (select open source). You'll have to install Desktop GCC and Gamepad from Qt 5.x, and optionally Qt Creator from under Tools.
+On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the official repositories may be several years old (as a trade-off between stability and access to the latest software).
 
-If you're using Arch, you can get Qt from AUR; here's the relevant [wiki page](https://wiki.archlinux.org/index.php/qt#Installation).
+On **Ubuntu**, you may use the following PPAs to get the latest Qt releases:
+
+```sh
+# for 14.04, use this:
+sudo add-apt-repository ppa:beineri/opt-qt591-trusty
+# for 16.04, use this:
+sudo add-apt-repository ppa:beineri/opt-qt591-xenial
+
+sudo apt-get update
+sudo apt-get install  \
+    qt59declarative  \
+    qt59graphicaleffects  \
+    qt59gamepad  \
+    qt59imageformats  \
+    qt59multimedia  \
+    qt59svg  \
+    qt59tools
+
+source /opt/qt59/bin/qt59-env.sh
+```
+
+then build as described below. You may want to add the `source ...` line to eg. your `.bashrc`, in order to be called automatically on every new terminal.
+
+If you're using **Arch**, you can get Qt from AUR; here's the relevant [wiki page](https://wiki.archlinux.org/index.php/qt#Installation).
+
+On other distros, you can use the official releases, available from [the website of Qt](https://info.qt.io/download-qt-for-application-development) (select open source). It comes in the form of an installer, where you'll have to select Desktop GCC and Gamepad from under Qt 5.x, and optionally Qt Creator from under Tools.
 
 ### Using Qt Creator
 
