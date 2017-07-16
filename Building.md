@@ -1,4 +1,4 @@
-Pegasus is a C++ program that uses the Qt framework. To build it run on your OS or device, you'll need a C++11 supporting compiler (g++ 4.6 or better), Qt 5.8 (version is important!) for your platform, and at least the following Qt components:
+Pegasus is a C++ program that uses the Qt framework. To build it run on your OS or device, you'll need a C++11 supporting compiler (g++ 4.6 or better), Qt 5.7 or later (version is important!) for your platform, and at least the following additional Qt components:
 
 - QML module
 - Qt Quick 2 module
@@ -17,7 +17,7 @@ Depending on your platform, these libs may or may not be available for your OS, 
 
 ## Linux/X11
 
-On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the repositories may be several years old (as a trade-off between stability and access to the latest software). Unless you're using a "bleeding edge" distribution (eg. Arch), it is recommended to use the official release available from [the website of Qt](https://info.qt.io/download-qt-for-application-development) (select open source). You'll have to install Desktop GCC and Gamepad from Qt 5.8, and optionally Qt Creator from under Tools.
+On many Linux distros, such as Debian (Ubuntu, Mint, ...) the Qt libraries are outdated, and the versions available in the repositories may be several years old (as a trade-off between stability and access to the latest software). Unless you're using a "bleeding edge" distribution (eg. Arch), it is recommended to use the official release available from [the website of Qt](https://info.qt.io/download-qt-for-application-development) (select open source). You'll have to install Desktop GCC and Gamepad from Qt 5.x, and optionally Qt Creator from under Tools.
 
 If you're using Arch, you can get Qt from AUR; here's the relevant [wiki page](https://wiki.archlinux.org/index.php/qt#Installation).
 
@@ -36,7 +36,7 @@ See the [Qt Creator how to](#general-using-qt-creator).
 
 ## Windows
 
-On Windows, you can use the official Qt installer, which you can get from [here](https://info.qt.io/download-qt-for-application-development) (select open source). Select Qt 5.8 during the installation, and one of the compilers you'll use for the building/development: either Microsoft Visual Studio (MSVC) or the open source MinGW tools. You'll also need Gamepad (under Qt 5.8), and Qt Creator (from Tools).
+On Windows, you can use the official Qt installer, which you can get from [here](https://info.qt.io/download-qt-for-application-development) (select open source). Select Qt 5.x during the installation, and one of the compilers you'll use for the building/development: either Microsoft Visual Studio (MSVC) or the open source MinGW tools. You'll also need Gamepad (under Qt 5.x), and Qt Creator (from Tools).
 
 Alternatively, if you're using MSYS2, you can find a setup guide [here](https://wiki.qt.io/MSYS2).
 
