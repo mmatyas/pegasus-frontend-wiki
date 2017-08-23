@@ -19,6 +19,8 @@ Name | When
 `config-changed` | on the change of any configuration option
 `controls-changed` | on change of the control settings (also calls `config` first)
 `settings-changed` | on change of the regular (non-control) settings (also calls `config` first)
+`game-start` | before starting a game
+`game-end` | after finishing a game
 
 ### 3. Script calling
 
