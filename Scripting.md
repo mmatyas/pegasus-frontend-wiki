@@ -16,9 +16,9 @@ Name | When
 `quit` | on program quit
 `reboot` | on system reboot (also calls `quit` first)
 `shutdown` | on system shutdown (also calls `quit` first)
-`config` | on the change of any configuration option
-`controls` | on change of the control settings (also calls `config` first)
-`settings` | on change of the regular (non-control) settings (also calls `config` first)
+`config-changed` | on the change of any configuration option
+`controls-changed` | on change of the control settings (also calls `config` first)
+`settings-changed` | on change of the regular (non-control) settings (also calls `config` first)
 
 ### 3. Script calling
 
