@@ -1,3 +1,14 @@
+### tl;dr
+
+- download the [Qt tools](https://info.qt.io/download-qt-for-application-development)
+- download the [translation repo](https://github.com/mmatyas/pegasus-frontend-translations)
+- create a copy of `pegasus_en.ts` for your language
+- open the new file in *Qt Linguist* and translate the UI strings
+- open a new issue in the [translation repo](https://github.com/mmatyas/pegasus-frontend-translations/issues) and attach your TS file
+
+
+## Translations
+
 Pegasus supports most languages in use today, and you can easily add new translations for any locale. The translations are stored in simple text files in XML format, so the only thing you need is a text editor. There's also a graphical tool to make things easier (see below). The translations themselves are collected in a separate repository [here](https://github.com/mmatyas/pegasus-frontend-translations), which is also included as a Git submodule in the main Pegasus repo.
 
 
