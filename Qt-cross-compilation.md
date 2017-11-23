@@ -1,4 +1,4 @@
-**NOTE**: Cross compiling Qt is not trivial, you'll need some experience setting it all up. If you'd just like to make Pegasus run on a new device, consider opening a new issue!
+**NOTE**: Cross compiling Qt is not trivial, you'll need some experience setting it all up. If you'd just like to make Pegasus run on a new device, consider opening a [new issue](https://github.com/mmatyas/pegasus-frontend/issues)!
 
 ---
 
