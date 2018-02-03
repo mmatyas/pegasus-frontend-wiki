@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/dev/deploy. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 Qt uses lots of modules, plugins and QML files, which makes it somewhat hard to create deployable packages. Fortunately, there are tools that can collect the necessary files for you.
 
 See the general Qt documentation [here](https://doc.qt.io/qt-5/deployment.html), especially the platform-specific notes. Since most of the details are described there, I'll just list the commands I usually use.

@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/dev/translate. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 ### tl;dr
 
 - download the [Qt tools](https://info.qt.io/download-qt-for-application-development)

@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/themes/overview. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 Note: The following documentation is not yet complete!
 
 ---

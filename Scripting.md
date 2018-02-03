@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/user-guide/scripting. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 Pegasus supports calling external scripts and executables on certain program events.
 
 ### 1. The scripts directory

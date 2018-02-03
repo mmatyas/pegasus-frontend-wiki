@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/dev/build. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 Pegasus is a C++ program that uses the Qt framework. To build it run on your OS or device, you'll need a C++11 supporting compiler (g++ 4.6 or better), Qt 5.7 or later (version is important!) for your platform, and at least the following additional Qt components:
 
 - QML module

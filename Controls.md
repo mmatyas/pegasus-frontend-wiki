@@ -1,3 +1,11 @@
+## OUTDATED
+
+This page has been moved to http://pegasus-frontend.org/docs/user-guide/controls. The wiki page is kept only for historical reasons.
+
+---
+
+---
+
 The default controls currently are:
 
 Keyboard| Gamepad   | Effect

@@ -1,3 +1,11 @@
+## MOVED
+
+The documentation has been extended and moved to http://pegasus-frontend.org. The wiki is kept only for historical reasons.
+
+---
+
+---
+
 Welcome to the wiki!
 
 Pegasus is an experimental emulator frontend, focusing on customizability, cross platform support (including embedded) and high performance. Here you can find the related documentation, development notes and guides.
